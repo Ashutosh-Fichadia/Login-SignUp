@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pg3"
+    android:background="#1C3464">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bike"
+
+        android:tint="#fff"
+        android:id="@+id/revimgv1"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Ashutosh Fichadia"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/revimgv1"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:gravity="top"
+        android:id="@+id/nm1"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="ashu011699"
+        android:layout_above="@id/nm1"
+        android:layout_toLeftOf="@id/revimgv1"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:gravity="bottom"
+        android:id="@+id/nm2"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nm2"
+        android:layout_toLeftOf="@id/revimgv1"
+        android:text="Edit Profile"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/btnmid"
+        ></Button>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/music"
+        android:tint="#fff"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btnmid"
+        android:id="@+id/btntop"
+        ></ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@id/btntop"
+        android:text="Go To Home Page"
+        android:layout_margin="5dp"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:background="@drawable/btnmid"
+        android:id="@+id/btnhome"
+        ></Button>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btntop"
+        android:layout_above="@id/revimgv1"
+        android:background="@drawable/rev_rounded"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relmid"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:text="Button 2"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:id="@+id/midbtn1"
+            android:background="@drawable/btnmid"
+            >
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:text="Button 3"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:layout_toLeftOf="@id/midbtn3"
+            android:layout_below="@id/midbtn1"
+            android:layout_above="@id/midbtn4"
+            android:id="@+id/midbtn2"
+            android:background="@drawable/btnmid"
+            >
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/midbtn1"
+            android:layout_above="@id/midbtn4"
+            android:text="Btn 4"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btnmid"
+            android:id="@+id/midbtn3"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="Button 5"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:id="@+id/midbtn4"
+            android:background="@drawable/btnmid"
+            >
+        </Button>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
